@@ -20,9 +20,9 @@ type Data struct{
 }
 
 func (s *Data)GetJsonData(pathName string){
-  getJsonData(pathName,s)
+  GetJsonData(pathName,s)
 
 }
 func (s *Data) Struct2JsonFile(pathName string){
-	struct2JsonFile(pathName,s)
+	Struct2JsonFile(pathName,s)
 }

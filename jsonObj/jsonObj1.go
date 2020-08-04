@@ -32,11 +32,11 @@ func GetAllFile(pathname string, s []string) ([]string, error) {
 
 
 func (s *AllItems) GetJsonData(pathName string) {
-	getJsonData(pathName,s)
+	GetJsonData(pathName,s)
 }
 
 func (s *AllItems) Struct2JsonFile(pathName string){
-	struct2JsonFile(pathName,s)
+	Struct2JsonFile(pathName,s)
 }
 
 func GetJsonData(pathName string,s interface{}){
