@@ -1,3 +1,3 @@
-module github.com/Chandlerzz/test
+module github.com/Chandlerzz/jsonObj
 
 go 1.14
