@@ -1,3 +1,3 @@
-module github.com/Chandlerzz/jsonObj
+module github.com/Chandlerzz/goChandler
 
 go 1.14
